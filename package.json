@@ -12,11 +12,15 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-static-files-copy": "^2.3.1",
+    "parcel-plugin-svelte": "^4.0.6",
     "svelte": "^3.20.1"
   },
   "staticFiles": {
     "staticPath": "static",
     "watcherGlob": "**"
   },
-  "dependencies": {}
+  "dependencies": {
+    "core-js": "^2.6.11",
+    "regenerator-runtime": "^0.13.5"
+  }
 }
