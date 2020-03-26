@@ -9,6 +9,18 @@
   let hasLoan = 0;
   let hasCreditCard = 0;
 
+  $: {
+    if (hasLoan === 0) {
+      loanPendingMonths = 0;
+    }
+
+    if (hasCreditCard === 0) {
+      creditCardLimit = 0;
+      creditCardUsed = 0;
+      creditCardOverduePayment = 0;
+    }
+  }
+
   let error = "";
   let classification = "";
   let confidence = 0;
@@ -23,6 +35,8 @@
       hasLoan,
       hasCreditCard
     };
+
+    console.log(input);
 
     predict(input, (_error, results) => {
       if (_error) {
