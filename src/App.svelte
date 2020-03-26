@@ -66,7 +66,10 @@
 <style>
   .form {
     font-family: sans-serif;
-    margin: 24px;
+    margin: 100px auto;
+    max-width: 400px;
+    background-color: #eeeeee;
+    padding: 24px;
   }
 
   .field {
@@ -85,9 +88,13 @@
   }
 
   .section {
-    background-color: #eeeeee;
+    background-color: #dddddd;
     padding: 12px;
     margin-bottom: 24px;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(143, 143, 143, 1);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(143, 143, 143, 1);
+    box-shadow: 0px 2px 4px 0px rgba(143, 143, 143, 1);
   }
 
   .section h4 {
@@ -97,7 +104,6 @@
   .actions {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 24px;
   }
 
   .actions button:last-child {
@@ -121,8 +127,8 @@
   .result {
     background-color: #388e3c;
     padding: 12px;
-    margin-bottom: 24px;
     color: white;
+    margin-top: 24px;
   }
 
   .result .real-result {
@@ -133,8 +139,8 @@
   .error {
     background-color: #ff5252;
     padding: 12px;
-    margin-bottom: 24px;
     color: white;
+    margin-top: 24px;
   }
 </style>
 
