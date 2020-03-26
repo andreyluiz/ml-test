@@ -1,7 +1,5 @@
-// const names = require("./names.json");
 const fs = require("fs");
 
-// const NAMES_COUNT = 49;
 const TOP_SCORE = 500;
 const CUSTOMERS = 10000;
 
@@ -19,13 +17,7 @@ function getRandomAccountBalance() {
 }
 
 for (let i = 0; i < CUSTOMERS; i++) {
-  // Uncomment for names :)
-  // const name = names.name[Math.floor(Math.random() * NAMES_COUNT) + 1];
-  // const surName = names.surName[Math.floor(Math.random() * NAMES_COUNT) + 1];
-
   const xs = {
-    // name,
-    // surName,
     hasLoan: Math.round(Math.random()),
     hasCreditCard: Math.round(Math.random()),
     currentBalance: getRandomAccountBalance()
@@ -104,7 +96,6 @@ for (let i = 0; i < CUSTOMERS; i++) {
   }
 
   const ys = {
-    score,
     classification
   };
 
