@@ -8,7 +8,7 @@ The application already has a pre-trained model of a customer base. A customer i
 
 ## Application
 
-The front-end application built in [Svelte](https://svelte.dev/) is a way to input attributes fro an hypotetical client. When clicking predict, the Machine Learning model will run the prediction for the given input.
+The front-end application built in [Svelte](https://svelte.dev/) is a way to input attributes for an hypotetical client. When clicking predict, the Machine Learning model will run the prediction for the given input.
 
 To run the application:
 
